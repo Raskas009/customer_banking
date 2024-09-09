@@ -26,10 +26,11 @@ Welcome to **Raj's Ultimate Banking System**, a Python-powered application that 
    ```bash
    git clone https://github.com/Raskas009/customer_banking.git
 
-Navigate to the project directory:
+2. Navigate to the project directory:
 bash
 Copy code
 cd raj customer_banking
+
 Run the application:
 bash
 Copy code
@@ -37,31 +38,27 @@ python banking_system.py
 Example Usage
 bash
 Copy code
+
+## Example Workflow
+
 Enter your savings account balance: $10,000
 Enter the interest rate: 3.0
 Enter the number of months: 6
-
 Interest earned: $150.00
 Updated balance: $10,150.00
-Requirements
+
+## Requirments
 Python 3.x or higher.
-How Interest is Calculated
+
+
+**How Interest is Calculated**
 Savings Accounts and CD Accounts:
-python
-Copy code
+
 interest = (balance * (interest_rate / 100)) / 12 * months
 updated_balance = balance + interest
-License
-This project is licensed under the MIT License. See the LICENSE file for more details.
+
 
 Contact
 For support or inquiries, contact support@rajsbanking.com.
 
-
-### Key Changes:
-- **Name**: The system is named **"Raj's Ultimate Banking System"** for a personalized touch.
-- **Features and Usage**: Clear and simple descriptions of the banking system's functionality.
-- **Installation**: Step-by-step instructions to clone the repository and run the script.
-- **How Interest is Calculated**: The formula for interest calculation is mentioned for clarity.
-- **License and Contact**: Placeholder for license and contact details for Raj’s support.
 
